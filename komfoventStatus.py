@@ -9,7 +9,7 @@ args = sys.argv
 '''
     Tamplate  10531077109032108910861086107310971077108510801081
 '''
-'''
+
 template = '10531077109032108910861086107310971077108510801081'
 
 def function_exit():
@@ -58,22 +58,7 @@ try:
 except (IndexError):
     print 0
     sys.exit(1)
-'''
+
 
 #finally:
 #    file.close()
-
-class FileFaker:
- def write(self, string):
-  print('FileFaker ' +string)
-# Do something with printed text in string
-
-FileFaker().write(' Qweqwe')
-a=1
-b=1
-c=1
-d=1
-e=1
-f =1
-if (a == b and c == d and d == e and e == f):
-    print('new')  # But parentheses usually do too
